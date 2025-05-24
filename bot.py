@@ -1,5 +1,5 @@
 # import the Telegram API token from config.py
-from config import TELEGRAM_API_TOKEN
+from config import 6489239711:AAHdUIHNoBj2az2azuLXfnPM_KV3t_2MDrs
 
 # import the required Telegram modules
 from telegram.ext import (
@@ -33,7 +33,7 @@ async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # set Telegram bot
-    application = ApplicationBuilder().token(TELEGRAM_API_TOKEN).build()
+    application = ApplicationBuilder().token(6489239711:AAHdUIHNoBj2az2azuLXfnPM_KV3t_2MDrs).build()
 
     # add the command handlers
     application.add_handler(CommandHandler("generate_config", generate_config))
